@@ -1,0 +1,20 @@
+$blue: #3469ca;
+$yellow: #f8ec47;
+$light-pink: #d16098;
+$pink: #ca3469;
+
+$primary: $pink;
+$secondary: $blue;
+
+$theme-colors: (
+        "primary": $primary,
+        "danger": $secondary
+);
+
+$card-border-width: 0;
+$card-spacer-y: .25rem;
+$card-spacer-x: 0rem;
+
+.bg-black {
+  background-color: #000000;
+}

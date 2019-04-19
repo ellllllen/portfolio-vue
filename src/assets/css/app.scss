@@ -1,0 +1,40 @@
+@import "./_variables.scss";
+@import url("https://fonts.googleapis.com/css?family=Lato:400|Indie+Flower");
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato";
+  font-size: 0.9em;
+  color: #333333;
+}
+
+@import "./about_me.scss";
+@import "./cv.scss";
+@import "./header.scss";
+@import "./nav.scss";
+@import "./welcome.scss";
+
+.outer-container {
+  background-color: #FFFFFF;
+  padding: 5px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 800px;
+}
+
+.main-title {
+  margin-bottom: 10px;
+  font-size: 1.6em;
+  color: $pink;
+  font-weight: 700;
+}
+
+.button-container {
+  margin: 10px 0;
+  text-align: center;
+}
