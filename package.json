@@ -12,7 +12,8 @@
     "file-loader": "^3.0.1",
     "url-loader": "^1.1.2",
     "vue": "^2.6.10",
-    "vue-moment": "^4.0.0"
+    "vue-moment": "^4.0.0",
+    "vue-router": "^3.0.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.6.0",

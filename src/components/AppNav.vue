@@ -2,13 +2,17 @@
   <nav>
     <ul>
       <li>
-        <a href="/" class="nav-link">Home</a>
+        <router-link class="nav-link" tag="a" to="/">Home</router-link>
       </li>
       <li>
-        <a href="/about" class="nav-link">About Me</a>
+        <router-link class="nav-link" tag="a" to="/about-me"
+          >About Me</router-link
+        >
       </li>
       <li>
-        <a href="/cv" class="nav-link">Curriculum Vitae</a>
+        <router-link class="nav-link" tag="a" to="/cv"
+          >Curriculum Vitae</router-link
+        >
       </li>
     </ul>
   </nav>

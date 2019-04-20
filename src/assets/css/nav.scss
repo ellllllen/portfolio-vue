@@ -20,8 +20,9 @@ nav {
     display: block;
   }
 
-  .active .nav-link {
+  .router-link-exact-active {
     color: $pink;
+    font-weight: bold;
   }
 
   .nav-link:hover {

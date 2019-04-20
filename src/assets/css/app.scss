@@ -24,6 +24,7 @@ body {
   background-color: #FFFFFF;
   max-width: $container-width;
   margin: 0 auto;
+  // box-shadow: 0 0.1rem 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer {
@@ -32,7 +33,7 @@ footer {
 }
 
 .main-title {
-  margin-bottom: 10px;
+  margin: 10px 0;
   font-size: 1.6em;
   color: $pink;
   font-weight: 700;
@@ -44,5 +45,6 @@ footer {
 }
 
 a {
+  color: $pink;
   text-decoration: none;
 }

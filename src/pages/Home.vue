@@ -1,24 +1,19 @@
 <template>
   <section class="home-images">
-    <div
-      v-bind:key="link.id"
-      v-for="link in homeLinks"
-      class="home-image"
-      :class="link.class"
-    >
-      <a
-        :href="link.link"
-        v-on:mouseover="link.showText = true"
-        v-on:mouseout="link.showText = false"
-      >
-        <span v-show="link.showText">{{ link.text }}</span>
-      </a>
-    </div>
+    <NavImage
+      v-bind:navLink="homeLink"
+      v-bind:key="homeLink.id"
+      v-for="homeLink in homeLinks"
+    />
   </section>
 </template>
 
 <script>
+import NavImage from "@/components/NavImage.vue";
+
 export default {
+  name: "home",
+  components: { NavImage },
   data() {
     return {
       homeLinks: [
