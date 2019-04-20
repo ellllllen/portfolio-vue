@@ -1,20 +1,12 @@
-$blue: #3469ca;
-$yellow: #f8ec47;
-$light-pink: #d16098;
-$pink: #ca3469;
+$blue: #1C77C3;
+$pink: #ED254E;
+$grey: #F1f1f1;
+$font: #333333;
+$dark: #303030;
 
-$primary: $pink;
-$secondary: $blue;
+$container-width: 65em;
 
-$theme-colors: (
-        "primary": $primary,
-        "danger": $secondary
-);
+$headerBorder: $blue;
 
-$card-border-width: 0;
-$card-spacer-y: .25rem;
-$card-spacer-x: 0rem;
-
-.bg-black {
-  background-color: #000000;
-}
+$navBg: black;
+$navText: $blue;

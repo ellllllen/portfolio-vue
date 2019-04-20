@@ -10,21 +10,25 @@ html {
 body {
   font-family: "Lato";
   font-size: 0.9em;
-  color: #333333;
+  color: $font;
+  background: $grey;
 }
 
 @import "./about_me.scss";
 @import "./cv.scss";
 @import "./header.scss";
 @import "./nav.scss";
-@import "./welcome.scss";
+@import "./home.scss";
 
 .outer-container {
   background-color: #FFFFFF;
-  padding: 5px 10px;
-  margin-right: auto;
-  margin-left: auto;
-  width: 800px;
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+footer {
+  max-width: $container-width;
+  margin: 0 auto;
 }
 
 .main-title {
@@ -37,4 +41,8 @@ body {
 .button-container {
   margin: 10px 0;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
 }

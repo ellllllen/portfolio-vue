@@ -1,0 +1,75 @@
+  .home-images {
+    display: flex;
+
+    .home-image {
+      height: 200px;
+      background-repeat: no-repeat;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+
+        span {
+          font-size: 2.0em;
+          color: $blue;
+          background-color: black;
+          padding: 5px 0;
+          width: 100%;
+          font-family: 'Indie Flower', cursive;
+        }
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
+
+    .home-image:hover {
+      opacity: 0.8;
+    }
+
+    .about-me {
+      background-image: url('~@/assets/images/about-me.jpg');
+      background-position: center left;
+      width: 45%;
+    }
+
+    .cv {
+      background-image: url('~@/assets/images/cv.png');
+      background-position: bottom right;
+      width: 65%;
+    }
+  }
+
+  .calendar {
+    background: #fcfcfc;
+    text-align: center;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #d2d2d2;
+    font-size: 1.1rem;
+    width: 70px;
+
+    .day {
+      padding: 0 15px;
+      display: block;
+    }
+
+    .month {
+      border-top: 3px solid #d2d2d2;
+      background: $pink;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+      display: block;
+      padding: 1px 15px;
+      border-radius: 0 0 10px 10px;
+      -moz-border-radius: 0 0 10px 10px;
+      -webkit-border-radius: 0 0 10px 10px;
+    }
+  }
