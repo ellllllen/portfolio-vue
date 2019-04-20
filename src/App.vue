@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import AppHeader from './components/AppHeader.vue';
-import AppNav from './components/AppNav.vue';
-import HomeImages from './components/Home/HomeImages.vue';
+import AppHeader from './components/AppHeader.vue'
+import AppNav from './components/AppNav.vue'
+import HomeImages from './components/Home/HomeImages.vue'
 
 export default {
   name: 'app',
@@ -22,5 +22,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import url('./assets/css/app.scss');
+@import url('./assets/css/app.scss');
 </style>
