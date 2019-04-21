@@ -17,23 +17,22 @@ export default new Router({
     {
       path: "/about-me",
       name: "about",
-      meta: {
-        layout: "no-sidebar"
-      },
       component: () => import("@/pages/AboutMe.vue")
     },
     {
       path: "/cv",
       name: "cv",
-      meta: {
-        layout: "no-sidebar"
-      },
       component: () => import("@/pages/Cv.vue")
+    },
+    {
+      path: "/articles/:id",
+      name: "cv",
+      component: () => import("@/pages/Article.vue")
+    },
+    {
+      path: "*",
+      name: "404*",
+      component: require("@/pages/Error.vue").default
     }
-    // {
-    //   path: "*",
-    //   name: "404*",
-    //   component: require("@/pages/404.vue").default
-    // }
   ]
 });
