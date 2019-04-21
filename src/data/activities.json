@@ -1,0 +1,82 @@
+[{
+        "id": 1,
+        "title": "Chatbot",
+        "description": "Started following a tutorial on how to build a chatbot in PHP using Laravel and Botman.",
+        "startDate": "2018-06-06",
+        "titleLink": "https://github.com/ellllllen/chatbot",
+        "display": true,
+        "external": true
+    },
+    {
+        "id": 2,
+        "title": "Scalable Microservices with Kubernetes",
+        "description": "Free Udacity Course, learning to containerise applications with Docker and Kubernetes.",
+        "startDate": "2018-06-10",
+        "titleLink": "https://eu.udacity.com/course/scalable-microservices-with-kubernetes--ud615",
+        "display": true,
+        "external": true
+    },
+    {
+        "id": 3,
+        "title": "Automated Testing",
+        "description": "Researching and implementing automated testing. So writing loads unit, feature and browser tests for my personal website.",
+        "startDate": "2018-06-21",
+        "titleLink": "https://github.com/ellllllen/personal-website",
+        "display": true,
+        "external": true
+    },
+    {
+        "id": 4,
+        "title": "Continuous Integration",
+        "description": "Now I've lots of automated tests I am now researching and implementing continuous integration and deployment (CI and CD).",
+        "startDate": "2018-08-01",
+        "titleLink": "/articles/9",
+        "display": true,
+        "external": false
+    },
+    {
+        "id": 5,
+        "title": "Travis CI (Part 1)",
+        "description": "Implemented Travis CI on my personal website.",
+        "startDate": "2018-10-11",
+        "titleLink": "https://travis-ci.com/ellllllen/personal-website",
+        "display": true,
+        "external": true
+    },
+    {
+        "id": 6,
+        "title": "Travis CI (Part 2)",
+        "description": "Managed to implement Browser tests using Travis CI on my personal website. Also added Travis CI to my other repositories.",
+        "startDate": "2018-11-01",
+        "titleLink": "https://travis-ci.com/ellllllen",
+        "display": true,
+        "external": true
+    },
+    {
+        "id": 7,
+        "title": "Added Chatbot to Personal Website",
+        "description": "Using the BotMan plugin I created a chatbot that tells my visitors some jokes.",
+        "startDate": "2018-11-16",
+        "titleLink": "/articles/11",
+        "display": true,
+        "external": false
+    },
+    {
+        "id": 8,
+        "title": "React Bootcamp",
+        "description": "Following Tyler McGinnis React Bootcamp.",
+        "startDate": "2019-01-26",
+        "titleLink": "/articles/10",
+        "display": true,
+        "external": false
+    },
+    {
+        "id": 9,
+        "title": "VueJS Portfolio",
+        "description": "I have rewritten my personal website. It is now a static VueJS multi-page app.",
+        "startDate": "2019-04-19",
+        "titleLink": "/articles/12",
+        "display": true,
+        "external": false
+    }
+]

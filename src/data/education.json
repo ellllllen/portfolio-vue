@@ -1,0 +1,66 @@
+[{
+        "id": 1,
+        "name": "Bournemouth University",
+        "location": "Bournemouth, Dorset",
+        "qualifications": [{
+            "id": 11,
+            "name": "2:1 BSc (Hons) Computing",
+            "content": [{
+                    "id": 21,
+                    "desc": "Final Year Modules:"
+                },
+                {
+                    "id": 22,
+                    "desc": "Web Systems"
+                },
+                {
+                    "id": 23,
+                    "desc": "Software Systems Modelling"
+                },
+                {
+                    "id": 24,
+                    "desc": "Digital Media and Games"
+                },
+                {
+                    "id": 25,
+                    "desc": "Final year dissertation and project"
+                }
+            ]
+        }]
+    },
+    {
+        "id": 2,
+        "name": "Ilfracombe College",
+        "location": "Ilfracombe, Devon",
+        "qualifications": [{
+                "id": 11,
+                "name": "A Levels",
+                "content": [{
+                        "id": 21,
+                        "desc": "A-Level Information Technology (A)"
+                    },
+                    {
+                        "id": 22,
+                        "desc": "A-Level Maths (D)"
+                    },
+                    {
+                        "id": 23,
+                        "desc": "AS-Level Media Studies (C)"
+                    },
+                    {
+                        "id": 24,
+                        "desc": "AS-Level Geography (D)"
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "name": "GCSEs",
+                "content": [{
+                    "id": 21,
+                    "desc": "10 GCSEs A - C including Maths, Science and English"
+                }]
+            }
+        ]
+    }
+]

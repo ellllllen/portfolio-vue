@@ -27,7 +27,9 @@ export default {
   data() {
     return {
       currentTab: this.getDefaultCurrentTab(),
-      articles: dataArticles
+      articles: dataArticles.sort(function(a, b) {
+        return b.id - a.id;
+      })
     };
   },
   components: { Article },
@@ -36,7 +38,9 @@ export default {
       if (this.$route.params.id) {
         return this.$route.params.id;
       } else {
-        return dataArticles.reverse()[0].id;
+        return dataArticles.sort(function(a, b) {
+          return b.id - a.id;
+        })[0].id;
       }
     }
   }
