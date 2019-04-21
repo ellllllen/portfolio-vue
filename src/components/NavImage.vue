@@ -1,12 +1,14 @@
 <template>
   <div class="home-image" :class="navLink.class">
-    <a
-      :href="navLink.link"
-      v-on:mouseover="navLink.showText = true"
-      v-on:mouseout="navLink.showText = false"
+    <router-link
+      class="nav-link"
+      tag="a"
+      :to="navLink.link"
+      @mouseover.native="navLink.showText = true"
+      @mouseout.native="navLink.showText = false"
     >
       <span v-show="navLink.showText">{{ navLink.text }}</span>
-    </a>
+    </router-link>
   </div>
 </template>
 
