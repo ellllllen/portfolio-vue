@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import CalendarIcon from "@/components/CalendarIcon.vue";
+import CalendarIcon from "@/components/calendar-icon.vue";
 export default {
   name: "Activities",
   components: { CalendarIcon },
@@ -119,10 +119,6 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/css/_variables.scss";
 .activities {
-  text-align: justify;
-  padding: 1rem;
-  line-height: 1.4rem;
-
   .desc {
     margin-bottom: 15px;
   }

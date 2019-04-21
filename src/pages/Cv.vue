@@ -1,5 +1,5 @@
 <template>
-  <div class="cv">
+  <div class="cv container">
     <h2 class="main-title">Curriculum Vitae</h2>
     <div>
       <h3>Personal Statement</h3>
@@ -273,11 +273,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss" scoped>
-.cv {
-  text-align: justify;
-  padding: 1rem;
-  line-height: 1.4rem;
-}
-</style>

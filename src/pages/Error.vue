@@ -1,5 +1,5 @@
 <template>
-  <div class="error-page">
+  <div class="error-page container">
     <img src="@/assets/images/error.jpg" alt="Whoops!" />
     <div>
       <h1>Error</h1>

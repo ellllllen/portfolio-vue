@@ -14,6 +14,11 @@
           >Curriculum Vitae</router-link
         >
       </li>
+      <li>
+        <router-link class="nav-link" tag="a" to="/articles"
+          >Articles</router-link
+        >
+      </li>
     </ul>
   </nav>
 </template>

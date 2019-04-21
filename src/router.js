@@ -9,30 +9,32 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      meta: {
-        layout: "no-sidebar"
-      },
-      component: require("@/pages/Home.vue").default
+      component: require("@/pages/home.vue").default
     },
     {
       path: "/about-me",
       name: "about",
-      component: () => import("@/pages/AboutMe.vue")
+      component: () => import("@/pages/about-me.vue")
     },
     {
       path: "/cv",
       name: "cv",
-      component: () => import("@/pages/Cv.vue")
+      component: () => import("@/pages/cv.vue")
+    },
+    {
+      path: "/articles",
+      name: "articles",
+      component: () => import("@/pages/articles.vue")
     },
     {
       path: "/articles/:id",
-      name: "cv",
-      component: () => import("@/pages/Article.vue")
+      name: "article",
+      component: () => import("@/pages/articles.vue")
     },
     {
       path: "*",
       name: "404*",
-      component: require("@/pages/Error.vue").default
+      component: require("@/pages/error.vue").default
     }
   ]
 });
