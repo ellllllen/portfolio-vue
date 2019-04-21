@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import CalendarIcon from "@/components/calendar-icon.vue";
+import CalendarIcon from "@/components/CalendarIcon.vue";
 import dataActivities from "@/data/activities.json";
 
 export default {

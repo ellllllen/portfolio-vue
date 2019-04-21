@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import AppHeader from "@/components/app-header.vue";
-import AppNav from "@/components/app-nav.vue";
-import AppFooter from "@/components/app-footer.vue";
+import AppHeader from "@/components/AppHeader.vue";
+import AppNav from "@/components/AppNav.vue";
+import AppFooter from "@/components/AppFooter.vue";
 
 export default {
   name: "app",

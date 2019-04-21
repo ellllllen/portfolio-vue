@@ -20,7 +20,7 @@
 
 <script>
 import dataArticles from "@/data/articles.json";
-import Article from "@/components/articles/article.vue";
+import Article from "@/components/articles/Article.vue";
 
 export default {
   name: "Articles",

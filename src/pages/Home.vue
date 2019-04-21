@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import NavImage from "@/components/nav-image.vue";
-import Activities from "@/components/activities.vue";
+import NavImage from "@/components/NavImage.vue";
+import Activities from "@/components/Activities.vue";
 
 export default {
   name: "home",

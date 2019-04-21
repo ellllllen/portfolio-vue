@@ -9,32 +9,32 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: require("@/pages/home.vue").default
+      component: require("@/pages/Home.vue").default
     },
     {
       path: "/about-me",
       name: "about",
-      component: () => import("@/pages/about-me.vue")
+      component: () => import("@/pages/AboutMe.vue")
     },
     {
       path: "/cv",
       name: "cv",
-      component: () => import("@/pages/cv.vue")
+      component: () => import("@/pages/Cv.vue")
     },
     {
       path: "/articles",
       name: "articles",
-      component: () => import("@/pages/articles.vue")
+      component: () => import("@/pages/Articles.vue")
     },
     {
       path: "/articles/:id",
       name: "article",
-      component: () => import("@/pages/articles.vue")
+      component: () => import("@/pages/Articles.vue")
     },
     {
       path: "*",
       name: "404*",
-      component: require("@/pages/error.vue").default
+      component: require("@/pages/Error.vue").default
     }
   ]
 });
