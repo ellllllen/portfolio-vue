@@ -26,11 +26,11 @@ export default new Router({
       name: "articles",
       component: require("@/pages/Articles.vue")
     },
-    // {
-    //   path: "/articles/:id",
-    //   name: "article",
-    //   component: require("@/pages/Articles.vue")
-    // },
+    {
+      path: "/articles/:id",
+      name: "article",
+      component: require("@/pages/Articles.vue")
+    },
     {
       path: "*",
       name: "404*",
