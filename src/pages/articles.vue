@@ -23,7 +23,7 @@ import dataArticles from "@/data/articles.json";
 import Article from "@/components/articles/Article.vue";
 
 export default {
-  name: "Articles",
+  name: "articles",
   data() {
     return {
       currentTab: this.getDefaultCurrentTab(),
