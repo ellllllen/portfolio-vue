@@ -1,6 +1,12 @@
 import Vue from "vue";
 import Router from "vue-router";
 
+import Home from "@/pages/Home.vue";
+import AboutMe from "@/pages/AboutMe.vue";
+import Cv from "@/pages/Cv.vue";
+import Articles from "@/pages/Articles.vue";
+import Error from "@/pages/Error.vue";
+
 Vue.use(Router);
 
 export default new Router({
@@ -9,32 +15,32 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: require("@/pages/Home.vue").default
+      component: Home
     },
     {
       path: "/about-me",
       name: "about",
-      component: require("@/pages/AboutMe.vue")
+      component: AboutMe
     },
     {
       path: "/cv",
       name: "cv",
-      component: require("@/pages/Cv.vue")
+      component: Cv
     },
     {
       path: "/articles",
       name: "articles",
-      component: require("@/pages/Articles.vue")
+      component: Articles
     },
     {
       path: "/articles/:id",
       name: "article",
-      component: require("@/pages/Articles.vue")
+      component: Articles
     },
     {
       path: "*",
-      name: "404*",
-      component: require("@/pages/Error.vue").default
+      name: "error",
+      component: Error
     }
   ]
 });
