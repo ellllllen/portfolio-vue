@@ -14,22 +14,22 @@ export default new Router({
     {
       path: "/about-me",
       name: "about",
-      component: () => import("@/pages/AboutMe.vue")
+      component: require("@/pages/AboutMe.vue")
     },
     {
       path: "/cv",
       name: "cv",
-      component: () => import("@/pages/Cv.vue")
+      component: require("@/pages/Cv.vue")
     },
     {
       path: "/articles",
       name: "articles",
-      component: () => import("@/pages/Articles.vue")
+      component: require("@/pages/Articles.vue")
     },
     {
       path: "/articles/:id",
       name: "article",
-      component: () => import("@/pages/Articles.vue")
+      component: require("@/pages/Articles.vue")
     },
     {
       path: "*",
