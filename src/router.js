@@ -21,11 +21,11 @@ export default new Router({
       name: "cv",
       component: require("@/pages/Cv.vue")
     },
-    {
-      path: "/articles",
-      name: "articles",
-      component: require("@/pages/Articles.vue")
-    },
+    // {
+    //   path: "/articles",
+    //   name: "articles",
+    //   component: require("@/pages/Articles.vue")
+    // },
     // {
     //   path: "/articles/:id",
     //   name: "article",
