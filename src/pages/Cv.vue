@@ -82,7 +82,6 @@ import dataSkills from "@/data/skills.json";
 import dataEmployment from "@/data/employment.json";
 import dataEducation from "@/data/education.json";
 export default {
-  name: "cv",
   data() {
     return {
       skills: dataSkills,

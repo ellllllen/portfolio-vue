@@ -34,7 +34,6 @@ import CalendarIcon from "@/components/CalendarIcon.vue";
 import dataActivities from "@/data/activities.json";
 
 export default {
-  name: "Activities",
   components: { CalendarIcon },
   data() {
     return {

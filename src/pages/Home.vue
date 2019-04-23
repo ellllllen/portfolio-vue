@@ -18,7 +18,6 @@ import NavImage from "@/components/NavImage.vue";
 import Activities from "@/components/Activities.vue";
 
 export default {
-  name: "home",
   components: { NavImage, Activities },
   data() {
     return {
