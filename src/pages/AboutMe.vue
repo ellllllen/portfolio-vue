@@ -16,23 +16,42 @@
     <a target="_blank" href="https://github.com/ellllllen"
       >https://github.com/ellllllen</a
     >
-  </div>
 
-  <!-- //    @if($articles->count() > 0)
-        <div class="articles">
-            <h3 class="text-primary">Articles About Me</h3>
-            <p>So sometimes I like to write a bit about non-techy things that I like or have done, these articles
-                appear here.</p>
-            @foreach($articles as $article)
-                @include('articles._article')
-            @endforeach
+    <div v-show="articles.length > 0">
+      <h3 class="text-primary">Articles About Me</h3>
+      <p>
+        So sometimes I like to write a bit about non-techy things that I like or
+        have done, these articles appear here.
+      </p>
+      <div class="articles">
+        <div
+          v-bind:key="article.id"
+          v-for="article in articles"
+          class="article"
+        >
+          <a :href="'./articles/' + article.id">
+            <h2>{{ article.title }}</h2>
+            <img
+              v-if="article.image"
+              :src="require('@/assets/images/articles/' + article.image)"
+            />
+          </a>
         </div>
-  @endif-->
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
+import dataArticles from "@/data/articles.json";
 export default {
-  name: "about-me"
+  data() {
+    return {
+      articles: dataArticles.filter(function(data) {
+        return data.about_me === true;
+      })
+    };
+  }
 };
 </script>
 
@@ -41,5 +60,19 @@ export default {
   text-align: justify;
   padding: 1rem;
   line-height: 1.4rem;
+
+  .articles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .article {
+      margin-right: 50px;
+      text-align: center;
+    }
+    img {
+      width: 100px;
+    }
+  }
 }
 </style>
