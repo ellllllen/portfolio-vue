@@ -11,11 +11,6 @@
       {{ this.moment(article.updated_at).format("Y-MM-DD") }}
     </i>
     <div v-html="article.section"></div>
-    <!-- <img
-      class="image-thumbnail"
-      v-if="article.image"
-      :src="require('@/assets/images/articles/' + article.image)"
-    />-->
     <AdditionalView
       v-bind:article="article"
       v-show="article.additional_view"
