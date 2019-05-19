@@ -16,11 +16,20 @@
       v-if="article.image"
       :src="require('@/assets/images/articles/' + article.image)"
     />-->
+    <AdditionalView
+      v-bind:article="article"
+      v-show="article.additional_view"
+    ></AdditionalView>
   </div>
 </template>
 
 <script>
+import AdditionalView from "@/components/articles/AdditionalView.vue";
+
 export default {
-  props: ["article"]
+  props: ["article"],
+  components: {
+    AdditionalView
+  }
 };
 </script>

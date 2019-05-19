@@ -24,15 +24,9 @@
         "title": "Children's Books",
         "section": "<p>I have created 2 children's books for my nieces first Christmases,&nbsp;Pandy Goes Home and&nbsp;Evie's Book of Unusual Animals.<\/p>",
         "image": "aLMs2JWz6eHxk3feRFGD294dAoBkcDrLWppyGjCy.jpeg",
+        "additional_view": true,
         "created_at": "2018-04-18 12:21:37",
         "updated_at": "2018-07-08 14:44:09"
-    }, {
-        "id": 5,
-        "title": "Learn Vue 2: Step By Step (Laracasts)",
-        "section": "<p>I have decided to follow along the&nbsp;Learn Vue 2: Step By Step Laracasts series and will use this page to code the examples as I go.&nbsp;<\/p>",
-        "image": "gVk5AEHN80nBfuMqZ9BrDD8H1mLSKmBCoLqUgcpE.png",
-        "created_at": "2018-04-23 19:22:02",
-        "updated_at": "2018-05-28 15:34:46"
     }, {
         "id": 6,
         "title": "Visual Studio Code",
