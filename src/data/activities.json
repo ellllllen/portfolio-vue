@@ -78,5 +78,14 @@
         "titleLink": "/articles/12",
         "display": true,
         "external": false
+    },
+    {
+        "id": 10,
+        "title": "VueJS Testing",
+        "description": "Following a Laracasts tutorial on how to test VueJS apps: https://laracasts.com/series/testing-vue",
+        "startDate": "2019-06-13",
+        "titleLink": "https://github.com/ellllllen/testing-vue",
+        "display": true,
+        "external": true
     }
 ]
