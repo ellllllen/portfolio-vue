@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <AppHeader />
-    <AppNav />
+    <AppHeader/>
+    <AppNav/>
     <div class="outer-container">
-      <router-view />
+      <router-view/>
     </div>
-    <AppFooter />
+    <AppFooter/>
   </div>
 </template>
 
@@ -26,4 +26,5 @@ export default {
 
 <style lang="scss">
 @import "@/assets/css/app.scss";
+@import "../node_modules/vuetify/dist/vuetify.min.css";
 </style>

@@ -12,10 +12,12 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "material-design-icons-iconfont": "^5.0.1",
     "url-loader": "^1.1.2",
     "vue": "^2.6.10",
     "vue-moment": "^4.0.0",
-    "vue-router": "^3.0.6"
+    "vue-router": "^3.0.6",
+    "vuetify": "^1.5.14"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.7.0",
