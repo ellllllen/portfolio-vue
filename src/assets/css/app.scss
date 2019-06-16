@@ -1,60 +1,57 @@
-@import "./_variables.scss";
-@import url("https://fonts.googleapis.com/css?family=Lato:400|Indie+Flower");
+//@import "../../../node_modules/material-components-web/material-components-web";
 
-html {
-  overflow-y: scroll;
-}
 
-body,
-html {
-  height: 100%;
-  margin: 0;
-}
+// @import "./_variables.scss";
+// @import url("https://fonts.googleapis.com/css?family=Lato:400|Indie+Flower");
 
-body {
-  font-family: "Lato";
-  font-size: 0.9em;
-  color: $font;
-  background: $grey;
-}
+// html {
+//   overflow-y: scroll;
+// }
 
-@import "./about_me.scss";
-@import "./cv.scss";
-@import "./header.scss";
-@import "./nav.scss";
-@import "./home.scss";
+// body,
+// html {
+//   height: 100%;
+//   margin: 0;
+// }
 
-.outer-container {
-  background-color: #FFFFFF;
-  max-width: $container-width;
-  margin: 0 auto;
-  // box-shadow: 0 0.1rem 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+// body {
+//   font-family: "Lato";
+//   font-size: 0.9em;
+//   color: $font;
+//   background: $grey;
+// }
 
-.container {
-  text-align: justify;
-  padding: 1rem;
-  line-height: 1.4rem;
-}
+// @import "./about_me.scss";
+// @import "./cv.scss";
+// @import "./header.scss";
+// @import "./nav.scss";
+// @import "./home.scss";
 
-footer {
-  max-width: $container-width;
-  margin: 0 auto;
-}
+// .outer-container {
+//   background-color: #FFFFFF;
+//   max-width: $container-width;
+//   margin: 0 auto;
+//   // box-shadow: 0 0.1rem 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+// }
 
-.main-title {
-  margin: 10px 0;
-  font-size: 1.6em;
-  color: $pink;
-  font-weight: 700;
-}
+// footer {
+//   max-width: $container-width;
+//   margin: 0 auto;
+// }
 
-.button-container {
-  margin: 10px 0;
-  text-align: center;
-}
+// .main-title {
+//   margin: 10px 0;
+//   font-size: 1.6em;
+//   color: $pink;
+//   font-weight: 700;
+// }
 
-a {
-  color: $pink;
-  text-decoration: none;
-}
+// .button-container {
+//   margin: 10px 0;
+//   text-align: center;
+// }
+
+// a {
+//   color: $pink;
+//   text-decoration: none;
+// }

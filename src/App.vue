@@ -1,12 +1,14 @@
 <template>
-  <div id="app">
+  <v-app>
     <AppHeader/>
     <AppNav/>
-    <div class="outer-container">
-      <router-view/>
-    </div>
+
+    <v-content>
+      <router-view></router-view>
+    </v-content>
+
     <AppFooter/>
-  </div>
+  </v-app>
 </template>
 
 <script>
@@ -15,16 +17,16 @@ import AppNav from "@/components/AppNav.vue";
 import AppFooter from "@/components/AppFooter.vue";
 
 export default {
-  name: "app",
+  name: "App",
   components: {
     AppHeader,
     AppNav,
     AppFooter
+  },
+  data() {
+    return {
+      //
+    };
   }
 };
 </script>
-
-<style lang="scss">
-@import "@/assets/css/app.scss";
-@import "../node_modules/vuetify/dist/vuetify.min.css";
-</style>

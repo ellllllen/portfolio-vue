@@ -1,15 +1,14 @@
-import Vue from "vue";
-import Vuetify from "vuetify";
-import App from "./App.vue";
-import router from "./router";
+import '@fortawesome/fontawesome-free/css/all.css'
+import Vue from 'vue'
+import './plugins/vuetify'
+import App from './App.vue'
+import router from './router'
+import moment from "moment"
 
-import moment from "moment";
-
-Vue.config.productionTip = false;
-Vue.prototype.moment = moment;
-Vue.use(Vuetify);
+Vue.config.productionTip = false
+Vue.prototype.moment = moment
 
 new Vue({
   router,
   render: h => h(App)
-}).$mount("#app");
+}).$mount('#app')
