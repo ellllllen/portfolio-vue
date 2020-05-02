@@ -3,25 +3,28 @@
     <h2 class="main-title">Curriculum Vitae</h2>
     <div>
       <h3>Personal Statement</h3>
-      In 2010 I finished my degree in Computing gaining a 2:1 with Honours.
-      Since I graduated I have been working for a Telecommunications company as
-      part of the Development team. I was first brought on-board as a Developer
-      to utilise my skills in languages such as PHP, MySQL, HTML, CSS and
-      JavaScript. However, I was keen to expand my abilities to other areas
-      which included learning new skills in the DevOps role. I feel I am a big
-      part of making the team successful, this includes implementing the Laravel
-      framework, which has vastly improved productivity. I recently got promoted
-      to Software Team Lead, where I manage, mentor and train a small team of
-      Software Developers to ensure software is produced at a high quality using
-      best practices.
+      In 2010 I finished my degree in Computing gaining a 2:1 with Honours,
+      since then I have been working as a software developer. I have a strong
+      programming foundation and enjoy adapting to new challenges. I am a hard
+      worker and love to be part of a team.
     </div>
     <div>
       <h3>Specialist Skills</h3>
-      <ul v-bind:key="skill.id" v-for="skill in skills">
-        <li>
-          {{ moment().diff(moment(skill.duration), "years"), }} years:
+      <ul>
+        <li v-bind:key="skill.id" v-for="skill in skills">
+          {{ moment().diff(moment(skill.duration), "years") }} years:
           {{ skill.desc }}
         </li>
+      </ul>
+      <br/>
+      <div class="cv-employ-title">Additional experience with:</div>
+      <ul>
+        <li>
+          AWS (API Gateway, Athena, Cloud9, Cloud Formation, CloudWatch,
+          CodeDeploy, DynamoDB, Lamdba, RDS, S3, SNS, SQS)
+        </li>
+        <li>Docker, Docker Compose, Vagrant, Serverless, Travis CI, Jenkins</li>
+        <li>NodeJS, VueJS</li>
       </ul>
     </div>
     <div>
@@ -41,10 +44,12 @@
         >
           {{ role.title }} ({{ role.date }})
         </div>
-        <div v-bind:key="content.id" v-for="content in employment.content">
+        <div
+          class="cv-employ-content"
+          v-bind:key="content.id"
+          v-for="content in employment.content"
+        >
           {{ content.desc }}
-          <br />
-          <br />
         </div>
       </div>
     </div>
@@ -59,14 +64,19 @@
           {{ education.name }} - {{ education.location }}
         </div>
         <div
+          class="cv-employ-content"
           v-bind:key="qualification.id"
           v-for="qualification in education.qualifications"
         >
           <div class="cv-employ-subtitle">{{ qualification.name }}</div>
-          <div v-bind:key="content.id" v-for="content in qualification.content">
-            {{ content.desc }}
-          </div>
-          <br />
+          <ul>
+            <li
+              v-bind:key="content.id"
+              v-for="content in qualification.content"
+            >
+              {{ content.desc }}
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -81,6 +91,7 @@
 import dataSkills from "@/data/skills.json";
 import dataEmployment from "@/data/employment.json";
 import dataEducation from "@/data/education.json";
+
 export default {
   data() {
     return {
@@ -91,3 +102,14 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.cv-employ-content {
+  margin-bottom: 10px;
+}
+</style>

@@ -87,5 +87,14 @@
         "titleLink": "https://github.com/ellllllen/testing-vue",
         "display": true,
         "external": true
+    },
+    {
+        "id": 11,
+        "title": "Restructuring Portfolio",
+        "description": "Working on breaking up functionality of my portfolio into separate repositories.",
+        "startDate": "2020-04-18",
+        "titleLink": "https://github.com/users/ellllllen/projects/2",
+        "display": true,
+        "external": true
     }
 ]

@@ -1,16 +1,17 @@
-[{
-        "id": 1,
-        "duration": "2008-08-01",
-        "desc": "PHP 5/PHP 7, MySQL, HTML, CSS/SaSS"
-    },
-    {
-        "id": 2,
-        "duration": "2010-06-01",
-        "desc": "Linux/LAMP Stack, JavaScript/JQuery/VueJS"
-    },
-    {
-        "id": 3,
-        "duration": "2015-01-01",
-        "desc": "Laravel, Git, PHPUnit"
-    }
+[
+  {
+    "id": 1,
+    "duration": "2008-08-01",
+    "desc": "PHP, SQL, HTML, CSS, JavaScript"
+  },
+  {
+    "id": 2,
+    "duration": "2010-06-01",
+    "desc": "Linux"
+  },
+  {
+    "id": 3,
+    "duration": "2015-01-01",
+    "desc": "Laravel, Git, PHPUnit"
+  }
 ]
